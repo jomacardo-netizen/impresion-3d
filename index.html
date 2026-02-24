@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto Final - Impresión 3D</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Poppins',sans-serif;background:#0f172a;color:#f1f5f9;scroll-behavior:smooth}
+nav{position:fixed;top:0;width:100%;background:#1e293b;padding:15px;text-align:center;z-index:1000}
+nav a{color:#38bdf8;margin:0 15px;text-decoration:none;font-weight:600}
+nav a:hover{color:#facc15}
+header{
+background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+url('https://images.unsplash.com/photo-1581092588429-6c1d3c6b1e9c');
+background-size:cover;
+background-position:center;
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px
+}
+header h1{font-size:3rem}
+header p{margin-top:15px;font-size:1.2rem;max-width:700px}
+.btn{display:inline-block;margin-top:20px;padding:12px 20px;background:#38bdf8;color:#000;border-radius:30px;text-decoration:none;font-weight:600}
+.btn:hover{background:#facc15}
+section{padding:100px 20px;max-width:1100px;margin:auto}
+h2{margin-bottom:20px;color:#38bdf8;font-size:2rem}
+.card-container{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:25px}
+.card{background:#1e293b;border-radius:15px;overflow:hidden;box-shadow:0 10px 25px rgba(0,0,0,.4);transition:.4s}
+.card img{width:100%;height:200px;object-fit:cover}
+.card-content{padding:20px}
+.card:hover{transform:translateY(-10px)}
+footer{background:#020617;text-align:center;padding:30px;margin-top:50px}
+ul{margin-top:10px;padding-left:20px}
+</style>
+</head>
+<body>
+
+<nav>
+<a href="#inicio">Inicio</a>
+<a href="#contenido">Contenido</a>
+<a href="#conclusion">Conclusión</a>
+<a href="#creditos">Créditos</a>
+</nav>
+
+<header id="inicio">
+<h1>La Revolución de la Impresión 3D</h1>
+<p>Proyecto Final de Tecnología – Décimo Grado<br>
+CENTRO EDUCATIVO AMERICAN CHRISTIAN SCHOOL</p>
+<a href="#contenido" class="btn">Explorar</a>
+</header>
+
+<section id="contenido">
+<h2>¿Qué es la Impresión 3D?</h2>
+<p>
+La impresión 3D es un proceso de fabricación aditiva que permite crear objetos físicos a partir de modelos digitales.
+Los objetos se construyen capa por capa utilizando materiales como plástico, resina o metal.
+Esta tecnología ha revolucionado la industria moderna al permitir la creación rápida de prototipos y piezas personalizadas.
+</p>
+
+<br><br>
+<h2>Tipos de Impresión 3D</h2>
+
+<div class="card-container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1614064641938-3bbee52942c7">
+<div class="card-content">
+<h3>FDM</h3>
+<p>Modelado por Deposición Fundida. Utiliza filamento plástico que se derrite y se deposita capa por capa.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581091870627-3b5de9a5c5e7">
+<div class="card-content">
+<h3>SLA</h3>
+<p>Estereolitografía. Usa resina líquida que se endurece mediante luz ultravioleta, ofreciendo alta precisión.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1605902711622-cfb43c44367f">
+<div class="card-content">
+<h3>SLS</h3>
+<p>Sinterizado Selectivo por Láser. Fusiona polvo con láser para crear piezas resistentes y funcionales.</p>
+</div>
+</div>
+
+</div>
+
+<br><br>
+<h2>Aplicaciones</h2>
+
+<div class="card-container">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1580281657527-47f249e8f9e4">
+<div class="card-content">
+<h3>Medicina</h3>
+<p>Creación de prótesis personalizadas, modelos anatómicos y avances en biotecnología.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231">
+<div class="card-content">
+<h3>Ingeniería</h3>
+<p>Fabricación de prototipos rápidos y piezas industriales funcionales.</p>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1581091012184-5c3a4d2a8d3c">
+<div class="card-content">
+<h3>Educación</h3>
+<p>Herramienta innovadora que mejora el aprendizaje práctico y creativo en los estudiantes.</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="conclusion">
+<h2>Conclusión</h2>
+<p>
+Durante la elaboración de este proyecto aprendimos que la impresión 3D es una tecnología innovadora que está transformando el mundo.
+Comprendimos su funcionamiento, sus tipos y sus aplicaciones en diferentes áreas como la medicina, la ingeniería y la educación.
+Además, fortalecimos nuestras habilidades de investigación, trabajo en equipo y diseño web.
+</p>
+</section>
+
+<section id="creditos">
+<h2>Créditos</h2>
+
+<p><strong>Institución:</strong> CENTRO EDUCATIVO AMERICAN CHRISTIAN SCHOOL</p>
+<p><strong>Grado:</strong> Décimo</p>
+<p><strong>Materia:</strong> Tecnología</p>
+<p><strong>Tema:</strong> Impresión 3D</p>
+
+<p><strong>Integrantes:</strong></p>
+<ul>
+<li>Anabella Fernández</li>
+<li>José Manuel Cardona</li>
+<li>Valerie</li>
+<li>Anacecila</li>
+<li>(Falta un integrante)</li>
+</ul>
+
+<p><strong>Fecha:</strong> 2026</p>
+
+<br><br>
+
+<h2>Resumen Ejecutivo</h2>
+<p>
+Este proyecto fue desarrollado con el objetivo de investigar la importancia de la impresión 3D en la actualidad.
+Se analizaron sus principales tipos (FDM, SLA y SLS) y sus aplicaciones en distintos sectores.
+La página web fue creada utilizando HTML y CSS, incorporando diseño moderno, navegación interactiva e imágenes relacionadas al tema.
+</p>
+
+</section>
+
+<footer>
+Proyecto Final de Tecnología – Impresión 3D
+</footer>
+
+</body>
+</html>
